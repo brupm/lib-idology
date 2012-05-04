@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     "LICENSE",
+    "README.md",
     "Rakefile",
     "VERSION",
     "doximity-idology.gemspec",
