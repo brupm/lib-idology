@@ -8,7 +8,7 @@ begin
     gem.summary = %Q{Ruby interface to the IDology API}
     gem.description = %Q{Ruby interface to the IDology API}
     gem.email = "bmiranda@doximity.com"
-    gem.homepage = "http://github.com/doximity/doximity"
+    gem.homepage = "http://github.com/doximity/doximity-idology"
     gem.authors = ['Bruno Miranda']
     gem.add_development_dependency "rspec"
     gem.add_dependency "hpricot"
