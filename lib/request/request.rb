@@ -16,9 +16,10 @@ module Idology
     # must be in the same directory as this file
     self.config = File.dirname(__FILE__) + "/../config.yml"
 
-    def initialize
-      config = YAML::load(File.open(Request.config))
-      self.credentials = AccessCredentials.new(:username => config['username'], :password => config['password'])
+    def initialize(credentials = { :username => 'test_username', :password => 'test_password'})
+      # config = YAML::load(File.open(Request.config))
+      # self.credentials = AccessCredentials.new(:username => config['username'], :password => config['password'])
+      self.credentials = AccessCredentials.new(credentials)
     end
   end
 end

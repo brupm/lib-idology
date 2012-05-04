@@ -22,7 +22,7 @@ describe SearchRequest do
   end
 
   it "should initialze with a url" do
-    @search_request.url.should eql('https://web.idologylive.com/api/idlive.svc')
+    @search_request.url.should eql('https://web.idologylive.com/api/idiq.svc')
   end
 
   it "should initialize with a username and password" do
@@ -58,7 +58,7 @@ describe VerificationQuestionsRequest do
   end
 
   it "should initialze with a url" do
-    @questions_request.url.should eql('https://web.idologylive.com/api/idliveq.svc')
+    @questions_request.url.should eql('https://web.idologylive.com/api/idiq.svc')
   end
 
   it "should initialize with a username and password" do
