@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
     "LICENSE",
     "Rakefile",
     "VERSION",
-    "idology.gemspec",
+    "doximity-idology.gemspec",
     "lib/access_credentials.rb",
     "lib/answer.rb",
     "lib/certs/cacert.pem",
