@@ -4,11 +4,11 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "doximity-idology"
+    gem.name = "lib-idology"
     gem.summary = %Q{Ruby interface to the IDology API}
     gem.description = %Q{Ruby interface to the IDology API}
-    gem.email = "bmiranda@doximity.com"
-    gem.homepage = "http://github.com/doximity/doximity-idology"
+    gem.email = "bruno@bopia.com"
+    gem.homepage = "http://github.com/brupm/lib-idology"
     gem.authors = ['Bruno Miranda']
     gem.add_development_dependency "rspec"
     gem.add_dependency "hpricot"
@@ -44,7 +44,7 @@ Rake::RDocTask.new do |rdoc|
   end
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "doximity-idology #{version}"
+  rdoc.title = "lib-idology #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
