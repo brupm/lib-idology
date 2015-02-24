@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "doximity-idology"
+  s.name = "lib-idology"
   s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Bruno Miranda"]
   s.date = "2012-05-04"
   s.description = "Ruby interface to the IDology API"
-  s.email = "bmiranda@doximity.com"
+  s.email = "bruno@bopia.com"
   s.extra_rdoc_files = [
     "LICENSE",
     "README.md"
@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
-    "doximity-idology.gemspec",
+    "lib-idology.gemspec",
     "lib/access_credentials.rb",
     "lib/answer.rb",
     "lib/certs/cacert.pem",
@@ -72,7 +72,7 @@ Gem::Specification.new do |s|
     "spec/spec.opts",
     "spec/spec_helper.rb"
   ]
-  s.homepage = "http://github.com/doximity/doximity"
+  s.homepage = "http://github.com/brupm"
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.21"
   s.summary = "Ruby interface to the IDology API"
